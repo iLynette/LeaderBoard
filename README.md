@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 # to do List
-> This is a simple html markup page
+> This a leaderboard website which displays scores submitted by different players. It also allows you to submit your score. All data is preserved thanks to an external LeaderBoard API service.
 
 ![screenshot](./api.png)
 ## Built With
