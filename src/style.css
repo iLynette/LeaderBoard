@@ -28,7 +28,6 @@
 
 .btn {
   padding: 6px;
-  box-shadow: 2px 3px #000;
 }
 
 #list {
@@ -36,16 +35,15 @@
 }
 
 .score {
-  padding: 12px;
+  padding: 14px;
   width: 35vw;
+  font-size: 18px;
+  border: 1px solid #000;
+  border-radius: 10px;
 }
 
-#list .score:nth-child(odd) {
-  background-color: rgb(185, 184, 184);
-}
-
-#list .score:nth-child(even) {
-  background-color: #ccc;
+#list .score {
+  background-color: #fff;
 }
 
 .right {
@@ -69,8 +67,8 @@ input {
 
 .submitBtn {
   width: 40%;
-  align-self: center;
+  align-self: flex-end;
   padding: 5px;
-  font-size: 18px;
+  font-size: 16px;
   background-color: #fff;
 }
