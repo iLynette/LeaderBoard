@@ -22,7 +22,7 @@
   box-shadow: 2px 3px #000;
 }
 
-.list {
+#list {
   border: 3px solid #000;
   margin: 5px;
   width: 100%;
@@ -32,7 +32,7 @@
   padding: 7px;
 }
 
-.list .score:nth-child(even) {
+#list .score:nth-child(even) {
   background-color: #ccc;
 }
 
